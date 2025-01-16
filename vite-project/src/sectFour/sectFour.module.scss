@@ -1,0 +1,40 @@
+@import '../templates.scss';
+.sect_four{
+    width: 1200px;
+    height: 592px;
+    background-color: #20201F;
+    @extend %display-center;
+    .con{
+        width: 1072px;
+        height: 347px;
+        @extend %display-space;
+        align-items: center;
+        flex-direction: column;
+        .texts{
+            text-align: center;
+
+            h1{
+                color: white;
+            }
+            
+        }
+        .button{
+            button{
+                border: 1px solid white;
+                color: white;
+            }
+        }
+    }
+    .absolute{
+        position: absolute;
+    }
+    .absolute:nth-of-type(2){
+        transform: translate(-400px);
+    }
+    .absolute:nth-of-type(3){
+        transform: translate(400px, -130px);
+    }
+    .absolute:nth-of-type(4){
+        transform: translate(400px, 130px);
+    }
+}

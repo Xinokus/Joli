@@ -1,0 +1,15 @@
+@import '../templates.scss';
+.sect_five{
+    width: 1200px;
+    height: 615px;
+    @extend %display-center;
+    text-align: center;
+    .con{
+        width: 674px;
+        height: 400px;
+        @extend %display-space;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+}
