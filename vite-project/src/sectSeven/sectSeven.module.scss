@@ -1,0 +1,35 @@
+@import '../templates.scss';
+.sect_seven{
+    width: 100%;
+    height: 289px;
+    @extend %display-center;
+    background-color: #E5E2DE;
+    .con{
+        width: 1072px;
+        height: 173px;
+        @extend %display-space;
+        h1{
+            font-size: 40px;
+        }
+        .email{
+            height: 173px;
+            @extend %display-space;
+            flex-direction: column;
+            p{
+                margin-bottom: 5px;
+            }
+            input{
+                width: 321px;
+                height: 62px;
+                border-radius: 14.2px;
+                border: 1px solid #8B8B8B;
+                font-size: 24px;
+                padding-left: 21px;
+                background: none;
+            }
+            button{
+                width: 495px;
+            }
+        }
+    }
+}

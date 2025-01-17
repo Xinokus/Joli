@@ -1,11 +1,11 @@
 @import '../templates.scss';
 .sect_three{
-    width: 1200px;
+    width: 100%;
     height: 840px;
-    display: flex;
+    @extend %display-center;
     background-color: #F7F7F7;
     .left{
-        width: 50%;
+        width: 600px;
         height: 100%;
         @extend %display-center;
         .con{

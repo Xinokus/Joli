@@ -8,6 +8,8 @@ import SectThree from './sectThree/sectThree'
 import SectFour from './sectFour/sectFour'
 import SectFive from './sectFive/sectFive'
 import SectSix from './sectSix/sectSix'
+import SectSeven from './sectSeven/sectSeven'
+import Footer from './footer/footer'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -18,5 +20,7 @@ createRoot(document.getElementById('root')).render(
     <SectFour/>
     <SectFive/>
     <SectSix/>
+    <SectSeven/>
+    <Footer/>
   </StrictMode>,
 )
