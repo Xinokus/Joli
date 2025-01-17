@@ -86,7 +86,7 @@ export default function Footer(){
                             <div className={classes.text}>
                                 <a href="">Privacy & Cookie Policy</a>
                                 <a href="">Disclaimer</a>
-                                <p>made by some bitch :(</p>
+                                <p>made by Xinokus</p>
                             </div>
                             <div className={classes.socials}>
                                 <a href=""><img src={Face} alt="" /></a>

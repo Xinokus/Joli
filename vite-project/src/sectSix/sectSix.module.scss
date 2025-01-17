@@ -4,6 +4,9 @@
     height: 840px;
     @extend %display-center;
     background-color: #F7F7F7;
+    .left{
+        height: 840px;
+    }
     .right{
         width: 600px;
         height: 100%;

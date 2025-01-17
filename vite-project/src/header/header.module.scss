@@ -16,5 +16,8 @@ header{
         width: 100%;
         height: 680px;
         @extend %display-center;
+        h1{
+            text-transform: uppercase;
+        }
     }
 }
