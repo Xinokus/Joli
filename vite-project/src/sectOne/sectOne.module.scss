@@ -8,6 +8,11 @@ button{
     border-radius: 40px;
     background: none;
     cursor: pointer;
+
+    &:hover{
+        border: 2px solid black;
+        font-weight: 600;
+    }
 }
 h1{
     font-size: 68px;
